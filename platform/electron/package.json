@@ -1,0 +1,16 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^31.2.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "copy": "rm -rf dist && cp -r ../app/dist dist"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
